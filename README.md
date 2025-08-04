@@ -133,6 +133,6 @@ npm start
 - Inspired by real-world medical appointment systems and simplified for learning purposes.
 
 ## 📫 Contact
-👨‍💻 Developed by Lokesh Reddy Kothur
-📧 Email: kothurlokeshreddy@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/kothurlokeshreddy
+- 👨‍💻 Developed by Lokesh Reddy Kothur
+- 📧 Email: kothurlokeshreddy@gmail.com
+- 🔗 LinkedIn: https://www.linkedin.com/in/kothurlokeshreddy
