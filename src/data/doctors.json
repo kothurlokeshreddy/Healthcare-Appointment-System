@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Aditi Sharma",
+    "specialization": "Cardiologist",
+    "image": "/images/profile-placeholder.png",
+    "available": true,
+    "bio": "Heart specialist with 12+ years of experience treating cardiovascular diseases."
+  },
+  {
+    "id": 2,
+    "name": "Dr. Vikram Iyer",
+    "specialization": "Dermatologist",
+    "image": "/images/profile-placeholder.png",
+    "available": false,
+    "bio": "Expert in skin conditions and cosmetic dermatology procedures."
+  },
+  {
+    "id": 3,
+    "name": "Dr. Neha Kapoor",
+    "specialization": "Pediatrician",
+    "image": "/images/profile-placeholder.png",
+    "available": true,
+    "bio": "Caring pediatrician with a passion for children’s health and wellness."
+  },
+  {
+    "id": 4,
+    "name": "Dr. Arjun Mehta",
+    "specialization": "Orthopedic Surgeon",
+    "image": "/images/profile-placeholder.png",
+    "available": true,
+    "bio": "Specialist in joint and bone treatments with 15+ years of surgical experience."
+  },
+  {
+    "id": 5,
+    "name": "Dr. Sneha Rao",
+    "specialization": "Neurologist",
+    "image": "/images/profile-placeholder.png",
+    "available": false,
+    "bio": "Neurologist with deep knowledge in treating brain and nervous system disorders."
+  },
+  {
+    "id": 6,
+    "name": "Dr. Rajeev Nair",
+    "specialization": "Psychiatrist",
+    "image": "/images/profile-placeholder.png",
+    "available": true,
+    "bio": "Mental health expert providing therapy and treatment for psychiatric conditions."
+  },
+  {
+    "id": 7,
+    "name": "Dr. Farah Qureshi",
+    "specialization": "Gynecologist",
+    "image": "/images/profile-placeholder.png",
+    "available": true,
+    "bio": "Trusted OB-GYN with experience in reproductive health and prenatal care."
+  },
+  {
+    "id": 8,
+    "name": "Dr. Kunal Desai",
+    "specialization": "ENT Specialist",
+    "image": "/images/profile-placeholder.png",
+    "available": false,
+    "bio": "ENT specialist skilled in treating ear, nose, and throat disorders."
+  },
+  {
+    "id": 9,
+    "name": "Dr. Ishita Sen",
+    "specialization": "Oncologist",
+    "image": "/images/profile-placeholder.png",
+    "available": true,
+    "bio": "Dedicated cancer specialist with experience in chemotherapy and radiation therapy."
+  },
+  {
+    "id": 10,
+    "name": "Dr. Manoj Kulkarni",
+    "specialization": "General Physician",
+    "image": "/images/profile-placeholder.png",
+    "available": true,
+    "bio": "Your go-to doctor for general health concerns and preventive care."
+  }
+]

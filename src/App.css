@@ -1,0 +1,195 @@
+/* styles.css */
+
+/* Global Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;;
+  background-color: #f4f9fd;
+  color: #333;
+  line-height: 1.6;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #0b6e99;
+  margin-bottom: 2rem;
+}
+
+h2,
+h3 {
+  color: #0b6e99;
+  margin-bottom: 1rem;
+}
+
+/* Inputs and Buttons */
+input,
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #0b6e99;
+  outline: none;
+  box-shadow: 0 0 5px rgba(11, 110, 153, 0.2);
+}
+
+button {
+  background-color: #0b6e99;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 180px;
+}
+
+button:hover {
+  background-color: #09597c;
+}
+
+/* Doctor List */
+.doctor-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+/* Doctor Card */
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  width: 290px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  margin-bottom: 0.25rem;
+}
+
+.available {
+  color: #2e8b57;
+  font-weight: bold;
+}
+
+.unavailable {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+/* Doctor Profile */
+.profile {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Appointment Form */
+form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form button {
+  margin-top: 1rem;
+}
+
+/* Back Button */
+button[type="button"] {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+button[type="button"]:hover {
+  background-color: #e0e0e0;
+}
+
+.active-btn {
+  background-color: #0b6e99;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.active-btn:hover {
+  background-color: #09597c;
+}
+
+.disabled-btn {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
